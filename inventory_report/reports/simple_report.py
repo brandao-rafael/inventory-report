@@ -56,10 +56,6 @@ class SimpleReport:
         expiration_close = SimpleReport.get_expiration_close(products)
         older_date = SimpleReport.get_older_date(products)
 
-        #         return f"""
-        # Data de fabricação mais antiga: {older_date}
-        # Data de validade mais próxima: {expiration_close}
-        # Empresa com mais produtos: {company_most_products}"""
         return (
             f"Data de fabricação mais antiga: {older_date}\n"
             f"Data de validade mais próxima: {expiration_close}\n"
